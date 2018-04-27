@@ -1,6 +1,6 @@
 # TeamSystem Angular&WebAPI_project
 
-# Creadentials for SQL database:
+Creadentials for SQL database:
 
 Server=4c10ae04-255d-41a1-85cd-a8af00b8df53.sqlserver.sequelizer.com;
 
