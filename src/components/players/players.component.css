@@ -1,0 +1,11 @@
+.content {
+    animation: 1s linear 0s 1 TranslateXWithFade;
+}
+
+#pagingContent button {
+    margin-right: 10px;
+}
+
+.input-group {
+    margin-bottom: 10px !important;
+}

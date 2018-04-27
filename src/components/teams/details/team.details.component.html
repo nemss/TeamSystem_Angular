@@ -1,0 +1,51 @@
+<div class="content">
+    <div class="row">
+        <div class="col-lg-10 col-md-10 col-center text-center" *ngIf='team'>
+            <h2><img src="{{ team.thumbnailUrl }}" alt="" class="img-responsive"/> {{ team.teamName }} - Details</h2>
+            <hr>
+            <div class="row">
+                <div class="col-sm-5 col-center">
+                    <div class="dataContainer">
+                        <h4>Players: </h4>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item" *ngFor='let player of playersInTeam' (click)='goToPlayerDetails(player.id)'>{{ player.firstName }} {{ player.secondName }} {{ player.lastName }}</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-5 col-center">
+                    <div class="dataContainer">
+                        <h4>Staff: </h4>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item" *ngFor='let staff of staffInTeam' (click)='goToPlayerDetails(staff.id)'>{{ staff.firstName }} {{ staff.secondName }} {{ staff.lastName }} - {{ staff.modelRoleName }}</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-5 col-center">
+                    <div class="dataContainer">
+                            <h4>Matches: </h4>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item" *ngFor='let match of homeMatches' (click)='goToMatchDetails(match.id)'><b>{{ match.homeTeamScore }}</b>  {{ match.homeTeamName }} - {{ match.guestTeamName }}  <b>{{ match.guestTeamScore }}</b></li>
+                                <li class="list-group-item" *ngFor='let match of guestMatches' (click)='goToMatchDetails(match.id)'><b>{{ match.homeTeamScore }}</b>  {{ match.homeTeamName }} - {{ match.guestTeamName }}  <b>{{ match.guestTeamScore }}</b></li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="text-center flagDelete" *ngIf='flagDelete'>
+                <br>
+                <br>
+                <h2>Are you sure you want to delete this team?</h2>
+                <hr>
+                <button class="btn btn-success" (click)='deleteTeam()'>Yes</button>
+                <button class="btn btn-danger" (click)='flagDChange()'>No</button>
+                <br>
+                <br>
+            </div>
+            <br>
+            <button class="btn btn-primary" (click)='editTeam()'>Edit</button>
+            <button class="btn btn-danger" (click)='flagDChange()'>Delete</button>
+        </div>
+    </div>
+</div>

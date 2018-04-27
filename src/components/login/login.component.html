@@ -1,0 +1,35 @@
+<div class="content">
+    <div class="row">
+        <div class="col-md-10 col-sm-11 col-lg-8 text-center col-center">
+            <h1>Login</h1>
+            <hr>
+            <div id="formContent">
+              <form #loginForm="ngForm">
+                <label for="username">Username</label>
+                <input [(ngModel)]='user.username' #username="ngModel" type="text" name="username" required>
+                <div *ngIf="username.invalid && (username.dirty || username.touched)" class="alert alert-danger">
+                    <div *ngIf="username.errors.required">
+                        Username is required.
+                    </div>
+                </div>
+            
+                <label for="password">Password</label>
+                <input [(ngModel)]='user.password' #password="ngModel" type="password" name="password" required>
+                <div *ngIf="password.invalid && (password.dirty || password.touched)" class="alert alert-danger">
+                    <div *ngIf="password.errors.required">
+                        Password is required.
+                    </div>
+                </div>
+            
+                <button class="btn btn-success" name="login" (click)='checkUser()' [disabled]='loginForm.invalid'>Login</button>
+              </form>
+              <br>
+              <div *ngIf='flagInvalidUser' class="alert alert-danger">
+                    No such user found! Try again...
+              </div>
+              <p>You don't have an account ?!</p>
+              <a routerLink="/register">Register Here</a>
+            </div>
+        </div>
+    </div>
+</div>

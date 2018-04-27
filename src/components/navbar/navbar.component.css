@@ -1,0 +1,79 @@
+@media screen and (max-width: 576px) {
+    .desktop {
+        display: none !important;
+    }
+    .mobile {
+        display: block !important;
+    }
+}
+.desktop ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 10px;
+}
+
+.desktop li {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+.desktop li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.desktop li a:hover {
+    background-color: orangered;
+    cursor: pointer;
+}
+
+.desktop li:last-child {
+    border-right: none;
+}
+
+.mobile #logo {
+    float: left;
+    width: 70px;
+    height: 50px;
+    vertical-align: middle;
+    padding-top: 11px;
+}
+
+.mobile .dropdown {
+    float: right;
+}
+
+.mobile .dropdownMenu, .mobile {
+    display: none;
+}
+
+.mobile .dropdownMenu, .dropdown-menu {
+    background-color: #333;
+    border-radius: 10px;
+    clear: both;
+}
+
+.mobile .dropdownMenu a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.mobile .dropdownMenu a:hover {
+    background-color: orangered;
+    cursor: pointer;
+}
+
+.mobile .dropdown #dropM {
+    width: 50px;
+    height: 50px;
+}

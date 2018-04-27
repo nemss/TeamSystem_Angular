@@ -1,0 +1,23 @@
+<div class="content">
+    <div class="row">
+        <div class="col-md-11 col-sm-12 col-lg-10 col-xs-12 text-center col-center" *ngIf='matchesOnPage'>
+            <h2>Matches</h2>
+            <hr>
+            <div *ngFor='let match of matchesOnPage;trackBy: trackByFn' class="matchContainer col-md-10 col-lg-9 col-sm-11 col-xs-12 col-center">
+                <img src="{{ match.homeTeamThumb }}" alt="" class="img-responsive">
+                <div class="dataContainer">
+                    <p *ngIf='match.homeTeamScore != null'><b>{{ match.homeTeamScore }}</b></p>
+                    <p>{{ match.homeTeamName }} - {{ match.guestTeamName }}</p>
+                    <p *ngIf='match.guestTeamScore != null'><b>{{ match.guestTeamScore }}</b></p>
+                </div>
+                <img src="{{ match.guestTeamThumb }}" alt="" class="img-responsive">
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div id="pagingContent" class="col-center text-center col-sm-10" *ngIf='pages.length > 1'>
+            <button class="btn btn-primary" *ngFor='let page of pages' (click)='goToPage(page)'>{{ page }}</button>
+        </div>
+    </div>
+</div>

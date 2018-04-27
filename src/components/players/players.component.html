@@ -1,0 +1,22 @@
+<div class="content">
+    <div class="row">
+        <div class="col-md-10 col-sm-11 col-lg-10 text-center col-center" *ngIf='playersOnPage'>
+            <h2>Players</h2>
+            <hr>
+            <div class="playersHolder col-md-8 col-lg-5 col-sm-10 col-xs-12 col-center">
+                <div class="input-group" *ngFor='let player of playersOnPage;trackBy: trackByFn'>
+                    <input type="text" class="form-control text-center" value="{{ player.firstName }} {{ player.secondName }} {{ player.lastName }}" readonly>
+                    <div class="input-group-append">
+                        <button class="btn btn-primary" (click)='goToDetails(player.id)'>Details</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div id="pagingContent" class="col-center text-center col-sm-10" *ngIf='pages.length > 1'>
+            <button class="btn btn-primary" *ngFor='let page of pages' (click)='goToPage(page)'>{{ page }}</button>
+        </div>
+    </div>
+</div>

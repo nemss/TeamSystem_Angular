@@ -1,0 +1,24 @@
+<div class="content">
+    <div class="row">
+        <div class="col-md-10 col-sm-11 col-lg-10 col-xs-12 text-center col-center" *ngIf='newsOnPage'>
+            <h2>News</h2>
+            <hr>
+            <div class="col-md-5 col-lg-3 col-sm-10 col-xs-12 thumbnail" *ngFor='let article of newsOnPage;trackBy: trackByFn'>
+                <div class="text-center">
+                    <h4 class="article-title">{{ article.title }}</h4>
+                    <img src="{{ article.thumbnailUrl }}" class="img-responsive" alt=""/>
+                    <ul class="list-group">
+                        <li class="list-group-item"><b>Release Date:</b> {{ article.publishDate | date}}</li>
+                    </ul>
+                    <button class="btn btn-primary" (click)='goToDetails( article.id )'>Details</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div id="pagingContent" class="col-center text-center col-sm-10" *ngIf='pages.length > 1'>
+            <button class="btn btn-primary" *ngFor='let page of pages' (click)='goToPage(page)'>{{ page }}</button>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,55 @@
+.content {
+    animation: 1s linear 0s 1 TranslateXWithFade;
+}
+
+.thumbnail img {
+    height: 200px;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+.thumbnail {
+    margin: 0 0 20px 6.6%;
+    height: 400px;
+    overflow: hidden;
+    float: left;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+}
+
+.thumbnail h4 {
+    margin: 10px 0;
+    height: 60px;
+}
+
+.thumbnail button {
+    margin: 10px 0;
+    width: 100px;
+}
+
+#pagingContent button {
+    margin-right: 10px;
+}
+
+.active {
+    background-color: orange;
+}
+
+@media screen and (max-width: 992px) {
+    .thumbnail {
+        margin-left: 5.5%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .thumbnail {
+        margin-left: 8.3%;
+        clear: both;
+    }
+}
+@media screen and (max-width: 576px) {
+    .thumbnail {
+        margin-left: 0;
+    }
+}

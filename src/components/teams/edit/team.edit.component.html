@@ -1,0 +1,34 @@
+<div class="content">
+        <div class=row>
+            <form #editForm='ngForm' class="col-md-10 col-lg-8 col-center text-center">
+                <h2>Edit Team</h2>
+                <hr>
+                <div class="col-md-8 col-lg-5 col-center" *ngIf='team'>
+                    <div class="form-group">
+                        <label for="teamName">Team Name: </label>
+                        <input [(ngModel)]='team.teamName' #teamName='ngModel' name="teamName" type="text" class="form-control text-center" required minlength="3"/>
+                    </div>
+                    <div *ngIf="teamName.invalid && (teamName.dirty || teamName.touched)" class="alert alert-danger">
+                        <div *ngIf="teamName.errors.required">
+                            Team Name is required.
+                        </div>
+                        <div *ngIf="title.errors.minlength">
+                            Team Name must be at least 3 characters long.
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="thumbnailUrl">ThumbnailUrl: </label>
+                        <img src="{{ team.thumbnailUrl }}" alt="" *ngIf='team.thumbnailUrl'>
+                        <input [(ngModel)]='team.thumbnailUrl' [ngModelOptions]="{updateOn: 'blur'}" #thumbUrl='ngModel' name="thumbnailUrl" type="url" class="form-control" required/>
+                    </div>
+                    <div *ngIf="thumbUrl.invalid && (thumbUrl.dirty || thumbUrl.touched)" class="alert alert-danger">
+                        <div *ngIf="thumbUrl.errors.required">
+                            Team Emblem is required.
+                        </div>
+                    </div>
+                    <button class="btn btn-success" (click)='editTeam()' [disabled]='editForm.invalid'>Update Team</button>
+                    <button class="btn btn-primary" routerLink='/teams'>Cancel</button>
+                </div>
+            </form>
+        </div>
+    </div>

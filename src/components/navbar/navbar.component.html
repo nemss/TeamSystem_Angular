@@ -1,0 +1,53 @@
+<nav class="desktop sticky-top">
+  <ul>
+    <li><a routerLink='/'>Home</a></li>
+    <li><a class="dropdown-toggle" data-toggle='dropdown'>Matches</a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" routerLink='/matches'>All Matches</a>
+        <a class="dropdown-item" routerLink='/match'>Create Match</a>
+      </div>
+    </li>
+    <li><a class="dropdown-toggle" data-toggle='dropdown'>News</a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" routerLink='/news'>All News</a>
+        <a class="dropdown-item" routerLink='/article'>Post Article</a>
+      </div>
+    </li>
+    <li><a class="dropdown-toggle" data-toggle='dropdown'>Players</a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" routerLink='/players'>All Players</a>
+        <a class="dropdown-item" routerLink='/player'>Create Player</a>
+      </div>
+    </li>
+    <li><a class="dropdown-toggle" data-toggle='dropdown'>Teams</a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" routerLink='/teams'>All Teams</a>
+        <a class="dropdown-item" routerLink='/team'>Create Team</a>
+      </div>
+    </li>
+    <li><a routerLink='/about'>About</a></li>
+    <li><a routerLink='/contact'>Contact</a></li>
+    <li style="float: right;"><a routerLink='/login'>Login</a></li>
+  </ul>
+</nav>
+<nav class="mobile sticky-top">
+  <img src="../../assets/pictures/ts.png" alt="" class="img-responsive" id="logo" routerLink='/'/>
+  <div class="dropdown">
+    <img src="https://png.icons8.com/color/180/drag-list-down.png" alt="" class="img-responsive" id="dropM"/>
+  </div>
+      <div class="dropdownMenu">
+          <a routerLink='/'>Home</a>
+          <a routerLink='/matches'>Matches</a>
+          <a routerLink='/match'>Create Match</a>
+          <a routerLink='/news'>News</a>
+          <a routerLink='/article'>Post Article</a>
+          <a routerLink='/players'>Players</a>
+          <a routerLink='/player'>Create Player</a>
+          <a routerLink='/teams'>Teams</a>
+          <a routerLink='/team'>Create Team</a>
+          <a routerLink='/about'>About</a>
+          <a routerLink='/contact'>Contact</a>
+          <div class="dropdown-divider"></div>
+          <a routerLink='/login'>Login</a>
+      </div>
+</nav>

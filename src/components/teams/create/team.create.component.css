@@ -1,0 +1,8 @@
+.content {
+    animation: 1s linear 0s 1 TranslateYWithFade;
+}
+
+img {
+    width: 100%;
+    margin-bottom: 10px;
+}

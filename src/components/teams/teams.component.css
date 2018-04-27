@@ -1,0 +1,41 @@
+.content {
+    animation: 1s linear 0s 1 TranslateXWithFade;
+}
+
+.thumbnail {
+    width: 100%;
+    border-radius: 50%;
+    border: solid 1px black;
+    display: inline-block;
+    height: 200px;
+    margin: 0 0 15px 20px;
+    vertical-align: middle;
+    overflow: hidden;
+    box-shadow: 0 0 10px black;
+}
+
+.thumbnail button {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.thumbnail h2 {
+    margin-top: 5px;
+}
+
+#pagingContent button {
+    margin-right: 10px;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 576px) {
+    .thumbnail {
+        margin-left: 0;
+    }
+}

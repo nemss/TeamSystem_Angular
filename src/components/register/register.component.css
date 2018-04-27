@@ -1,0 +1,38 @@
+.content {
+    animation: 1s linear 0s 1 FadeIn;
+}
+
+#formContent {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    width: 70%;
+    margin: 30px auto;
+    overflow: hidden;
+}
+#formContent label {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+#formContent input[type=text], input[type=password], input[type=email], input[type=date] {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: flex;
+    margin: 10px auto 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 576px) {
+    #formContent {
+        width: 99%;
+    }
+
+    #formContent input[type=submit] {
+        width: 40%;
+    }
+}

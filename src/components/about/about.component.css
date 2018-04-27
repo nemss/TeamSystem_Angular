@@ -1,0 +1,9 @@
+.content {
+    animation: 1s linear 0s 1 TranslateYWithFade;
+}
+
+img {
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+}
