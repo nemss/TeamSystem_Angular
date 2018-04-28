@@ -14,7 +14,7 @@ import * as $ from 'jquery';
 
 export class EditArticleComponent implements OnInit, OnDestroy {
     private articleId: number;
-    private article: ArticleModel;
+    article: ArticleModel;
     private sub: Subscription;
     
     constructor(private newsService: NewsService, private route: ActivatedRoute, private router: Router) {

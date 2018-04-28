@@ -18,7 +18,7 @@ export class NewsComponent implements OnInit, OnDestroy {
     private sub: Subscription;
     private articlesPerPage = 3;
     private currentPage = 1;
-    private pages: number[];
+    pages: number[];
     
     constructor(private newsService: NewsService, private router: Router) { 
         this.sub = new Subscription();

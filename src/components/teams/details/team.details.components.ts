@@ -17,7 +17,7 @@ import { MatchesService } from '../../../services/matches.service';
 
 export class TeamDetailsComponent implements OnInit, OnDestroy {
     private teamId: number;
-    private team: TeamsModel;
+    team: TeamsModel;
     private allPlayers: PersonModel[];
     private playersInTeam: PersonModel[];
     private staffInTeam: PersonModel[];

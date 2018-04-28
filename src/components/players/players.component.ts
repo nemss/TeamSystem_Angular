@@ -17,7 +17,7 @@ export class PlayersComponent implements OnInit, OnDestroy {
     private sub: Subscription;
     private playersPerPage = 10;
     private currentPage = 1;
-    private pages: number[];
+    pages: number[];
     
     constructor(private playerService: PlayersService, private router: Router) { 
         this.sub = new Subscription();

@@ -13,7 +13,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 
 export class EditTeamComponent implements OnInit, OnDestroy {
     private teamId: number;
-    private team: TeamsModel;
+    team: TeamsModel;
     private sub: Subscription;
 
     constructor(private teamService: TeamsService, private route: ActivatedRoute, private router: Router) { 

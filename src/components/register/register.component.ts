@@ -10,8 +10,8 @@ import { RegisterUser } from '../../models/user.models';
 })
 
 export class RegisterComponent implements OnInit {
-    private user: RegisterUser;
-    private flagUserExist = false;
+    user: RegisterUser;
+    flagUserExist = false;
     constructor(private router: Router) { 
         this.user = new RegisterUser();
     }

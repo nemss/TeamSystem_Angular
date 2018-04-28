@@ -12,7 +12,7 @@ import { Router } from '@angular/router';
 })
 
 export class CreateTeamComponent implements OnInit {
-    private team: TeamsModel;
+    team: TeamsModel;
     private sub: Subscription;
     
     constructor(private teamService: TeamsService, private router: Router) {

@@ -13,7 +13,7 @@ import * as $ from 'jquery';
 })
 
 export class CreateArticleComponent implements OnInit, OnDestroy {
-    private article: ArticleModel;
+    article: ArticleModel;
     private sub: Subscription;
     
     constructor(private newsService: NewsService, private router: Router) {

@@ -16,7 +16,7 @@ export class MatchesComponent implements OnInit, OnDestroy {
     private sub: Subscription;
     private matchesPerPage = 5;
     private currentPage = 1;
-    private pages: number[];
+    pages: number[];
     
     constructor(private matchService: MatchesService) { 
         this.pages = new Array<number>();

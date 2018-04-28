@@ -3,7 +3,6 @@ import { NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app.routes';
 import { HttpModule } from '@angular/http';
-import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 
 
 import { AppComponent } from './app.component';
@@ -63,7 +62,6 @@ import { CreateMatchComponent } from '../matches/create/match.create.component';
     AppRoutingModule,
     HttpModule
   ],
-  providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

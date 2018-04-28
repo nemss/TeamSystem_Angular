@@ -10,8 +10,8 @@ import { LoginUser } from '../../models/user.models';
 })
 
 export class LoginComponent implements OnInit {
-    private user: LoginUser;
-    private flagInvalidUser = false;
+    user: LoginUser;
+    flagInvalidUser = false;
     
     constructor(private router: Router) {
         this.user = new LoginUser();

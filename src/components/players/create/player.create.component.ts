@@ -16,7 +16,7 @@ import { ModelRole } from '../../../models/roles.model';
 })
 
 export class CreatePlayerComponent implements OnInit, OnDestroy {
-    private player: PersonModel;
+    player: PersonModel;
     private sub: Subscription;
     private teams: TeamsModel[];
     private roles: ModelRole[];

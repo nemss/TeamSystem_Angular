@@ -17,7 +17,7 @@ export class TeamsComponent implements OnInit, OnDestroy {
     private sub : Subscription;
     private teamsPerPage = 6;
     private currentPage = 1;
-    private pages: number[];
+    pages: number[];
     
     constructor(private teamService: TeamsService, private router: Router) { 
         this.sub = new Subscription();

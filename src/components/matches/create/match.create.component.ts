@@ -14,10 +14,10 @@ import { TeamsModel } from '../../../models/teams.model';
 })
 
 export class CreateMatchComponent implements OnInit {
-    private match: MatchModel;
-    private teams: TeamsModel[];
+    match: MatchModel;
+    teams: TeamsModel[];
     private sub: Subscription;
-    private minDate: string;
+    minDate: string;
     
     constructor(private matchService: MatchesService, private teamService:TeamsService, private router: Router) {
         this.match = new MatchModel();

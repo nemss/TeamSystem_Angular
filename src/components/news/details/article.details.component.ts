@@ -14,7 +14,7 @@ import * as $ from 'jquery';
 
 export class ArticleDetailsComponent implements OnInit, OnDestroy {
     private articleId: number;
-    private article: ArticleModel;
+    article: ArticleModel;
     private flagDelete: boolean;
     private sub: Subscription;
     

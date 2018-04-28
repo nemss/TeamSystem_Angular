@@ -13,7 +13,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 
 export class PlayerDetailsComponent implements OnInit, OnDestroy {
     private playerId: number;
-    private player: PersonModel;
+    player: PersonModel;
     private flagDelete: boolean;
     private sub: Subscription;
     

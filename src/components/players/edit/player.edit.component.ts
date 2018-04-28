@@ -19,7 +19,7 @@ export class EditPlayerComponent implements OnInit, OnDestroy {
     private playerId: number;
     private teams: TeamsModel[];
     private roles: ModelRole[];
-    private player: PersonModel;
+    player: PersonModel;
     private sub: Subscription;
     
     constructor(private playerService: PlayersService, private roleService: PlayerRolesService, private teamService: TeamsService, private route: ActivatedRoute, private router: Router) {
