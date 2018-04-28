@@ -4,10 +4,11 @@ import { Observable } from 'rxjs/Observable';
 import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/catch';
 import { PlayersModel, PersonModel } from '../models/players.models';
+import { environment } from '../environments/environment.prod';
 
 @Injectable()
 export class PlayersService {
-    private apiUrl = '/api/players/';
+    private apiUrl = environment.apiUrl + '/api/teams/';
 
     constructor(private http: Http) { }
 

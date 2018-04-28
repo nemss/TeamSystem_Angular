@@ -4,10 +4,11 @@ import { Observable } from 'rxjs/Observable';
 import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/catch';
 import { NewsModel, ArticleModel } from './../models/news.models';
+import { environment } from '../environments/environment.prod';
 
 @Injectable()
 export class NewsService {
-    private apiUrl = '/api/news/';
+    private apiUrl = environment.apiUrl + '/api/teams/';
 
     constructor(private http: Http) {
 
