@@ -26,8 +26,12 @@ export class TeamsComponent implements OnInit, OnDestroy {
     }
     
     ngOnInit() { 
+
+        var loading = $('.loadingDiv');
+        loading.css("display","block");
         this.sub = this.teamService.getTeamsPerPage(this.teamsPerPage).subscribe( teams => this.teamsOnPage = teams, err => {}, () => {
             this.calculatePages(this.teamsPerPage);
+            loading.css("display","none");
         });
 
         //Jquery scripts

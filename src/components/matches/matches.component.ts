@@ -25,8 +25,11 @@ export class MatchesComponent implements OnInit, OnDestroy {
     }
     
     ngOnInit() { 
+        var loading = $('.loadingDiv');
+        loading.css("display","block");
         this.sub = this.matchService.getMatchesPerPage(this.matchesPerPage).subscribe( matches => this.matchesOnPage = matches, err => {}, () => {
             this.calculatePages(this.matchesPerPage);
+            loading.css("display","none");
         });
 
         $(function() {

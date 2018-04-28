@@ -23,12 +23,17 @@ export class NewsComponent implements OnInit, OnDestroy {
     constructor(private newsService: NewsService, private router: Router) { 
         this.sub = new Subscription();
         this.holdAllNews = new Array<NewsModel>();
+        this.newsOnPage = new Array<NewsModel>();
         this.pages = new Array<number>();
     }
     
     ngOnInit() {
+
+        var loading = $('.loadingDiv');
+        loading.css("display","block");
         this.sub = this.newsService.getArticlesPerPage(this.articlesPerPage).subscribe( news => this.newsOnPage = news, err => {}, () => {
             this.calculatePages(this.articlesPerPage);
+            loading.css("display","none");
         });
 
         //Jquery scripts

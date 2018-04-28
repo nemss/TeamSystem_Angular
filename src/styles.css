@@ -7,6 +7,14 @@
     font-family: "Yeon Sung";
 }
 
+.loadingDiv {
+    display: none;
+    position: static;
+    width: 100%;
+    height: 300px;
+    background: url('./assets/videos/loading.gif') no-repeat center;
+}
+
 @keyframes RotateYWithFade {
     from {
         opacity: 0;

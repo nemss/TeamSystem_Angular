@@ -22,12 +22,17 @@ export class PlayersComponent implements OnInit, OnDestroy {
     constructor(private playerService: PlayersService, private router: Router) { 
         this.sub = new Subscription();
         this.holdAllPlayers = new Array<PersonModel>();
+        this.playersOnPage = new Array<PlayersModel>();
         this.pages = new Array<number>();
     }
     
     ngOnInit() {
+        
+        var loading = $('.loadingDiv');
+        loading.css("display","block");
         this.sub = this.playerService.getPlayersPerPage(this.playersPerPage).subscribe( players => this.playersOnPage = players, err => {}, () => {
             this.calculatePages(this.playersPerPage);
+            loading.css("display","none");
         });
 
         //Jquery scripts
