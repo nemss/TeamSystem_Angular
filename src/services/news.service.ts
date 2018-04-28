@@ -8,7 +8,7 @@ import { environment } from '../environments/environment.prod';
 
 @Injectable()
 export class NewsService {
-    private apiUrl = environment.apiUrl + '/api/teams/';
+    private apiUrl = environment.apiUrl + '/api/news/';
 
     constructor(private http: Http) {
 
