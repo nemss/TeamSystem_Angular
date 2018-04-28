@@ -52,7 +52,7 @@ namespace TeamSystem.SPA
             }
 
             app.UseCors(builder =>
-                builder.WithOrigins("http://teamsystem.azurewebsites.net")
+                builder.WithOrigins("http://teamsystem.azurewebsites.net/")
                         .AllowAnyHeader()
                         .AllowAnyMethod()
                         .AllowCredentials()
