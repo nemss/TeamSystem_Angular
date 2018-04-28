@@ -1,12 +1,3 @@
-C:\Users\MonTi\Desktop\TeamSystemPROJECT\TeamSystem\TeamSystem.Entities\bin\Debug\netcoreapp2.0\TeamSystem.Entities.deps.json
-C:\Users\MonTi\Desktop\TeamSystemPROJECT\TeamSystem\TeamSystem.Entities\bin\Debug\netcoreapp2.0\TeamSystem.Entities.dll
-C:\Users\MonTi\Desktop\TeamSystemPROJECT\TeamSystem\TeamSystem.Entities\bin\Debug\netcoreapp2.0\TeamSystem.Entities.pdb
-C:\Users\MonTi\Desktop\TeamSystemPROJECT\TeamSystem\TeamSystem.Entities\obj\Debug\netcoreapp2.0\TeamSystem.Entities.csproj.CoreCompileInputs.cache
-C:\Users\MonTi\Desktop\TeamSystemPROJECT\TeamSystem\TeamSystem.Entities\obj\Debug\netcoreapp2.0\TeamSystem.Entities.AssemblyInfoInputs.cache
-C:\Users\MonTi\Desktop\TeamSystemPROJECT\TeamSystem\TeamSystem.Entities\obj\Debug\netcoreapp2.0\TeamSystem.Entities.AssemblyInfo.cs
-C:\Users\MonTi\Desktop\TeamSystemPROJECT\TeamSystem\TeamSystem.Entities\obj\Debug\netcoreapp2.0\TeamSystem.Entities.dll
-C:\Users\MonTi\Desktop\TeamSystemPROJECT\TeamSystem\TeamSystem.Entities\obj\Debug\netcoreapp2.0\TeamSystem.Entities.pdb
-C:\Users\MonTi\Desktop\TeamSystemPROJECT\TeamSystem\TeamSystem.Entities\obj\Debug\netcoreapp2.0\TeamSystem.Entities.csprojResolveAssemblyReference.cache
 C:\Users\MonTi\Desktop\TeamSystem_Angular\TeamSystem.Entities\bin\Debug\netcoreapp2.0\TeamSystem.Entities.deps.json
 C:\Users\MonTi\Desktop\TeamSystem_Angular\TeamSystem.Entities\bin\Debug\netcoreapp2.0\TeamSystem.Entities.dll
 C:\Users\MonTi\Desktop\TeamSystem_Angular\TeamSystem.Entities\bin\Debug\netcoreapp2.0\TeamSystem.Entities.pdb

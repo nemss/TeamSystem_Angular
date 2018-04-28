@@ -1,12 +1,3 @@
-C:\Users\MonTi\Desktop\TeamSystemPROJECT\TeamSystem\TeamSystem.Common\bin\Debug\netstandard2.0\TeamSystem.Common.deps.json
-C:\Users\MonTi\Desktop\TeamSystemPROJECT\TeamSystem\TeamSystem.Common\bin\Debug\netstandard2.0\TeamSystem.Common.dll
-C:\Users\MonTi\Desktop\TeamSystemPROJECT\TeamSystem\TeamSystem.Common\bin\Debug\netstandard2.0\TeamSystem.Common.pdb
-C:\Users\MonTi\Desktop\TeamSystemPROJECT\TeamSystem\TeamSystem.Common\obj\Debug\netstandard2.0\TeamSystem.Common.csproj.CoreCompileInputs.cache
-C:\Users\MonTi\Desktop\TeamSystemPROJECT\TeamSystem\TeamSystem.Common\obj\Debug\netstandard2.0\TeamSystem.Common.AssemblyInfoInputs.cache
-C:\Users\MonTi\Desktop\TeamSystemPROJECT\TeamSystem\TeamSystem.Common\obj\Debug\netstandard2.0\TeamSystem.Common.AssemblyInfo.cs
-C:\Users\MonTi\Desktop\TeamSystemPROJECT\TeamSystem\TeamSystem.Common\obj\Debug\netstandard2.0\TeamSystem.Common.dll
-C:\Users\MonTi\Desktop\TeamSystemPROJECT\TeamSystem\TeamSystem.Common\obj\Debug\netstandard2.0\TeamSystem.Common.pdb
-C:\Users\MonTi\Desktop\TeamSystemPROJECT\TeamSystem\TeamSystem.Common\obj\Debug\netstandard2.0\TeamSystem.Common.csprojResolveAssemblyReference.cache
 C:\Users\MonTi\Desktop\TeamSystem_Angular\TeamSystem.Common\bin\Debug\netstandard2.0\TeamSystem.Common.deps.json
 C:\Users\MonTi\Desktop\TeamSystem_Angular\TeamSystem.Common\bin\Debug\netstandard2.0\TeamSystem.Common.dll
 C:\Users\MonTi\Desktop\TeamSystem_Angular\TeamSystem.Common\bin\Debug\netstandard2.0\TeamSystem.Common.pdb

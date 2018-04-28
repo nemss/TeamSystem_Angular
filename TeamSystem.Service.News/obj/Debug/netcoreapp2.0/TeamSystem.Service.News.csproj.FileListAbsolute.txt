@@ -1,17 +1,3 @@
-C:\Users\MonTi\Desktop\TeamSystemPROJECT\TeamSystem\TeamSystem.Service.News\bin\Debug\netcoreapp2.0\TeamSystem.Service.News.deps.json
-C:\Users\MonTi\Desktop\TeamSystemPROJECT\TeamSystem\TeamSystem.Service.News\bin\Debug\netcoreapp2.0\TeamSystem.Service.News.dll
-C:\Users\MonTi\Desktop\TeamSystemPROJECT\TeamSystem\TeamSystem.Service.News\bin\Debug\netcoreapp2.0\TeamSystem.Service.News.pdb
-C:\Users\MonTi\Desktop\TeamSystemPROJECT\TeamSystem\TeamSystem.Service.News\bin\Debug\netcoreapp2.0\TeamSystem.Data.dll
-C:\Users\MonTi\Desktop\TeamSystemPROJECT\TeamSystem\TeamSystem.Service.News\bin\Debug\netcoreapp2.0\TeamSystem.Entities.dll
-C:\Users\MonTi\Desktop\TeamSystemPROJECT\TeamSystem\TeamSystem.Service.News\bin\Debug\netcoreapp2.0\TeamSystem.Data.pdb
-C:\Users\MonTi\Desktop\TeamSystemPROJECT\TeamSystem\TeamSystem.Service.News\bin\Debug\netcoreapp2.0\TeamSystem.Entities.pdb
-C:\Users\MonTi\Desktop\TeamSystemPROJECT\TeamSystem\TeamSystem.Service.News\obj\Debug\netcoreapp2.0\TeamSystem.Service.News.csprojResolveAssemblyReference.cache
-C:\Users\MonTi\Desktop\TeamSystemPROJECT\TeamSystem\TeamSystem.Service.News\obj\Debug\netcoreapp2.0\TeamSystem.Service.News.csproj.CoreCompileInputs.cache
-C:\Users\MonTi\Desktop\TeamSystemPROJECT\TeamSystem\TeamSystem.Service.News\obj\Debug\netcoreapp2.0\TeamSystem.Service.News.AssemblyInfoInputs.cache
-C:\Users\MonTi\Desktop\TeamSystemPROJECT\TeamSystem\TeamSystem.Service.News\obj\Debug\netcoreapp2.0\TeamSystem.Service.News.AssemblyInfo.cs
-C:\Users\MonTi\Desktop\TeamSystemPROJECT\TeamSystem\TeamSystem.Service.News\obj\Debug\netcoreapp2.0\TeamSystem.Service.News.csproj.CopyComplete
-C:\Users\MonTi\Desktop\TeamSystemPROJECT\TeamSystem\TeamSystem.Service.News\obj\Debug\netcoreapp2.0\TeamSystem.Service.News.dll
-C:\Users\MonTi\Desktop\TeamSystemPROJECT\TeamSystem\TeamSystem.Service.News\obj\Debug\netcoreapp2.0\TeamSystem.Service.News.pdb
 C:\Users\MonTi\Desktop\TeamSystem_Angular\TeamSystem.Service.News\bin\Debug\netcoreapp2.0\TeamSystem.Service.News.deps.json
 C:\Users\MonTi\Desktop\TeamSystem_Angular\TeamSystem.Service.News\bin\Debug\netcoreapp2.0\TeamSystem.Service.News.dll
 C:\Users\MonTi\Desktop\TeamSystem_Angular\TeamSystem.Service.News\bin\Debug\netcoreapp2.0\TeamSystem.Service.News.pdb
