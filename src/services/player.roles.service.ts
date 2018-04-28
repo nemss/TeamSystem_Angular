@@ -8,7 +8,7 @@ import { environment } from '../environments/environment.prod';
 
 @Injectable()
 export class PlayerRolesService {
-    private apiUrl = environment.apiUrl + '/api/teams/';
+    private apiUrl = environment.apiUrl + '/api/playerroles/';
 
     constructor(private http: Http) { }
 
